@@ -1,0 +1,25 @@
+# MATLAB
+*.asv
+*.autosave
+*.mex*
+slprj/
+*.slxc
+matlab/results/*.mat
+# Python / Pi
+__pycache__/
+*.pyc
+.venv/
+# Run logs (commit only the ones you want to cite in the report)
+data/*.csv
+!data/.gitkeep
+# Secrets - NEVER commit SMTP passwords
+.env
+*.secret
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+# Office lock files
+~$*
